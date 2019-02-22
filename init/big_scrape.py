@@ -79,7 +79,7 @@ def scrape(platform, searchItem):
         print('GameSpot: ' + gsST)
 
     except AttributeError as inst:
-        print('Sorry we were unable to find that title')
+        print('Sorry we were unable to find ', self)
         print(inst)
 
 
